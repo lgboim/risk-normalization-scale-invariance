@@ -1,0 +1,67 @@
+{
+  "status": "posthoc_calendar_window_sensitivity",
+  "source": "work/databento/continuous/NQ_volume_continuous_1m.csv.gz",
+  "rule": "4 <= opening_range_width_points <= 120",
+  "complete_session_rule": "exactly one bar for every minute from 09:30 through 13:59 America/New_York",
+  "matched_window": "January 1 through August 26 of each year",
+  "annual": {
+    "2023": {
+      "complete_sessions": 248,
+      "eligible_sessions": 220,
+      "eligibility_rate": 0.8870967741935484,
+      "below_lower_bound": 0,
+      "above_upper_bound": 28
+    },
+    "2024": {
+      "complete_sessions": 249,
+      "eligible_sessions": 181,
+      "eligibility_rate": 0.7269076305220884,
+      "below_lower_bound": 0,
+      "above_upper_bound": 68
+    },
+    "2025": {
+      "complete_sessions": 247,
+      "eligible_sessions": 116,
+      "eligibility_rate": 0.46963562753036436,
+      "below_lower_bound": 0,
+      "above_upper_bound": 131
+    },
+    "2026": {
+      "complete_sessions": 163,
+      "eligible_sessions": 21,
+      "eligibility_rate": 0.12883435582822086,
+      "below_lower_bound": 0,
+      "above_upper_bound": 142
+    }
+  },
+  "matched": {
+    "2023": {
+      "complete_sessions": 162,
+      "eligible_sessions": 142,
+      "eligibility_rate": 0.8765432098765432,
+      "below_lower_bound": 0,
+      "above_upper_bound": 20
+    },
+    "2024": {
+      "complete_sessions": 163,
+      "eligible_sessions": 131,
+      "eligibility_rate": 0.803680981595092,
+      "below_lower_bound": 0,
+      "above_upper_bound": 32
+    },
+    "2025": {
+      "complete_sessions": 161,
+      "eligible_sessions": 72,
+      "eligibility_rate": 0.4472049689440994,
+      "below_lower_bound": 0,
+      "above_upper_bound": 89
+    },
+    "2026": {
+      "complete_sessions": 163,
+      "eligible_sessions": 21,
+      "eligibility_rate": 0.12883435582822086,
+      "below_lower_bound": 0,
+      "above_upper_bound": 142
+    }
+  }
+}

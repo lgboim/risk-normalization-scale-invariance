@@ -1,0 +1,142 @@
+{
+  "status": "independent_CME_equity_calendar_reconciliation",
+  "calendar_implementation": "pandas_market_calendars:CME_Equity",
+  "full_window_definition": "scheduled market close at or after 14:00 America/New_York",
+  "research_window": "09:30-13:59 America/New_York",
+  "markets": {
+    "NQ": {
+      "2011-2017": {
+        "market": "NQ",
+        "period": "2011-2017",
+        "calendar_full_window_sessions": 1748,
+        "calendar_scheduled_short_sessions": 59,
+        "source_observed_full_window_dates": 1745,
+        "calendar_sessions_absent_from_source": 3,
+        "source_observed_but_not_270_bars": 29,
+        "complete_270_bar_sessions": 1716,
+        "headline_signals": 1693,
+        "source_coverage_rate": 0.9982837528604119,
+        "complete_calendar_rate": 0.9816933638443935
+      },
+      "2018-2019": {
+        "market": "NQ",
+        "period": "2018-2019",
+        "calendar_full_window_sessions": 497,
+        "calendar_scheduled_short_sessions": 18,
+        "source_observed_full_window_dates": 497,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 497,
+        "headline_signals": 488,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 1.0
+      },
+      "2020-2021": {
+        "market": "NQ",
+        "period": "2020-2021",
+        "calendar_full_window_sessions": 502,
+        "calendar_scheduled_short_sessions": 16,
+        "source_observed_full_window_dates": 502,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 4,
+        "complete_270_bar_sessions": 498,
+        "headline_signals": 492,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 0.9920318725099602
+      },
+      "2022-2023": {
+        "market": "NQ",
+        "period": "2022-2023",
+        "calendar_full_window_sessions": 498,
+        "calendar_scheduled_short_sessions": 18,
+        "source_observed_full_window_dates": 498,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 498,
+        "headline_signals": 490,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 1.0
+      },
+      "2024-2026": {
+        "market": "NQ",
+        "period": "2024-2026",
+        "calendar_full_window_sessions": 0,
+        "calendar_scheduled_short_sessions": 0,
+        "source_observed_full_window_dates": 0,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 0,
+        "headline_signals": 0,
+        "source_coverage_rate": null,
+        "complete_calendar_rate": null
+      }
+    },
+    "ES": {
+      "2011-2017": {
+        "market": "ES",
+        "period": "2011-2017",
+        "calendar_full_window_sessions": 1748,
+        "calendar_scheduled_short_sessions": 59,
+        "source_observed_full_window_dates": 1744,
+        "calendar_sessions_absent_from_source": 4,
+        "source_observed_but_not_270_bars": 27,
+        "complete_270_bar_sessions": 1717,
+        "headline_signals": 1703,
+        "source_coverage_rate": 0.9977116704805492,
+        "complete_calendar_rate": 0.9822654462242563
+      },
+      "2018-2019": {
+        "market": "ES",
+        "period": "2018-2019",
+        "calendar_full_window_sessions": 497,
+        "calendar_scheduled_short_sessions": 18,
+        "source_observed_full_window_dates": 497,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 497,
+        "headline_signals": 492,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 1.0
+      },
+      "2020-2021": {
+        "market": "ES",
+        "period": "2020-2021",
+        "calendar_full_window_sessions": 502,
+        "calendar_scheduled_short_sessions": 16,
+        "source_observed_full_window_dates": 502,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 4,
+        "complete_270_bar_sessions": 498,
+        "headline_signals": 496,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 0.9920318725099602
+      },
+      "2022-2023": {
+        "market": "ES",
+        "period": "2022-2023",
+        "calendar_full_window_sessions": 498,
+        "calendar_scheduled_short_sessions": 18,
+        "source_observed_full_window_dates": 498,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 498,
+        "headline_signals": 495,
+        "source_coverage_rate": 1.0,
+        "complete_calendar_rate": 1.0
+      },
+      "2024-2026": {
+        "market": "ES",
+        "period": "2024-2026",
+        "calendar_full_window_sessions": 0,
+        "calendar_scheduled_short_sessions": 0,
+        "source_observed_full_window_dates": 0,
+        "calendar_sessions_absent_from_source": 0,
+        "source_observed_but_not_270_bars": 0,
+        "complete_270_bar_sessions": 0,
+        "headline_signals": 0,
+        "source_coverage_rate": null,
+        "complete_calendar_rate": null
+      }
+    }
+  }
+}

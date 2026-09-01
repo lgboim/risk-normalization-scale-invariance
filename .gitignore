@@ -1,0 +1,28 @@
+# Licensed and local market data
+data/
+raw/
+private/
+licensed_data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Python and operating-system artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Local build and scratch outputs
+tmp/
+scratch/

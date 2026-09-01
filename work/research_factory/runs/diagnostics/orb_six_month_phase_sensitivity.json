@@ -1,0 +1,1645 @@
+{
+  "status": "posthoc_block_phase_sensitivity",
+  "primary_phase": 0,
+  "primary_phase_definition": "January-June and July-December",
+  "method": "global six-month calendar partitions shifted by 0-5 months; all observations retained; shorter leading and trailing blocks allowed",
+  "interpretation": "The effect estimate is invariant to phase. Variations in intervals and p-values measure sensitivity of the deliberately coarse uncertainty calculation to block boundaries.",
+  "empirical": {
+    "NQ": [
+      {
+        "phase_months": 0,
+        "effect_r": 0.11527981843884783,
+        "se_r": 0.04152386934024644,
+        "t": 2.776230160398719,
+        "df": 3,
+        "two_sided_p": 0.06920781017248927,
+        "ci95_dual": [
+          -0.016867666124102898,
+          0.24742730300179855
+        ],
+        "pre_blocks": 14,
+        "late_blocks": 4,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-06",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2011-07",
+            "last_month": "2011-12",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2012-01",
+            "last_month": "2012-06",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-07",
+            "last_month": "2012-12",
+            "calendar_months_observed": 6,
+            "trades": 114
+          },
+          {
+            "first_month": "2013-01",
+            "last_month": "2013-06",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2013-07",
+            "last_month": "2013-12",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2014-01",
+            "last_month": "2014-06",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2014-07",
+            "last_month": "2014-12",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2015-01",
+            "last_month": "2015-06",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2015-07",
+            "last_month": "2015-12",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2016-01",
+            "last_month": "2016-06",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2016-07",
+            "last_month": "2016-12",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-01",
+            "last_month": "2017-06",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2017-07",
+            "last_month": "2017-12",
+            "calendar_months_observed": 6,
+            "trades": 121
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-06",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2022-07",
+            "last_month": "2022-12",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-01",
+            "last_month": "2023-06",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2023-07",
+            "last_month": "2023-12",
+            "calendar_months_observed": 6,
+            "trades": 122
+          }
+        ]
+      },
+      {
+        "phase_months": 1,
+        "effect_r": 0.11527981843884783,
+        "se_r": 0.03103896593619833,
+        "t": 3.7140354055547307,
+        "df": 4,
+        "two_sided_p": 0.02058137000076276,
+        "ci95_dual": [
+          0.029101833394888935,
+          0.20145780348280673
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-01",
+            "calendar_months_observed": 1,
+            "trades": 18
+          },
+          {
+            "first_month": "2011-02",
+            "last_month": "2011-07",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2011-08",
+            "last_month": "2012-01",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2012-02",
+            "last_month": "2012-07",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2012-08",
+            "last_month": "2013-01",
+            "calendar_months_observed": 6,
+            "trades": 116
+          },
+          {
+            "first_month": "2013-02",
+            "last_month": "2013-07",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2013-08",
+            "last_month": "2014-01",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2014-02",
+            "last_month": "2014-07",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2014-08",
+            "last_month": "2015-01",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2015-02",
+            "last_month": "2015-07",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2015-08",
+            "last_month": "2016-01",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2016-02",
+            "last_month": "2016-07",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2016-08",
+            "last_month": "2017-01",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-02",
+            "last_month": "2017-07",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-08",
+            "last_month": "2017-12",
+            "calendar_months_observed": 5,
+            "trades": 102
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-01",
+            "calendar_months_observed": 1,
+            "trades": 19
+          },
+          {
+            "first_month": "2022-02",
+            "last_month": "2022-07",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2022-08",
+            "last_month": "2023-01",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-02",
+            "last_month": "2023-07",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2023-08",
+            "last_month": "2023-12",
+            "calendar_months_observed": 5,
+            "trades": 105
+          }
+        ]
+      },
+      {
+        "phase_months": 2,
+        "effect_r": 0.11527981843884783,
+        "se_r": 0.04264930363052687,
+        "t": 2.7029707082095142,
+        "df": 4,
+        "two_sided_p": 0.05392814758212589,
+        "ci95_dual": [
+          -0.003133631866222994,
+          0.23369326874391866
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-02",
+            "calendar_months_observed": 2,
+            "trades": 37
+          },
+          {
+            "first_month": "2011-03",
+            "last_month": "2011-08",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2011-09",
+            "last_month": "2012-02",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2012-03",
+            "last_month": "2012-08",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2012-09",
+            "last_month": "2013-02",
+            "calendar_months_observed": 6,
+            "trades": 110
+          },
+          {
+            "first_month": "2013-03",
+            "last_month": "2013-08",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2013-09",
+            "last_month": "2014-02",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2014-03",
+            "last_month": "2014-08",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2014-09",
+            "last_month": "2015-02",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2015-03",
+            "last_month": "2015-08",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2015-09",
+            "last_month": "2016-02",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2016-03",
+            "last_month": "2016-08",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2016-09",
+            "last_month": "2017-02",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2017-03",
+            "last_month": "2017-08",
+            "calendar_months_observed": 6,
+            "trades": 128
+          },
+          {
+            "first_month": "2017-09",
+            "last_month": "2017-12",
+            "calendar_months_observed": 4,
+            "trades": 79
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-02",
+            "calendar_months_observed": 2,
+            "trades": 37
+          },
+          {
+            "first_month": "2022-03",
+            "last_month": "2022-08",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2022-09",
+            "last_month": "2023-02",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2023-03",
+            "last_month": "2023-08",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-09",
+            "last_month": "2023-12",
+            "calendar_months_observed": 4,
+            "trades": 82
+          }
+        ]
+      },
+      {
+        "phase_months": 3,
+        "effect_r": 0.11527981843884783,
+        "se_r": 0.05273107750310294,
+        "t": 2.1861836301764215,
+        "df": 4,
+        "two_sided_p": 0.09409217749408205,
+        "ci95_dual": [
+          -0.03112512358644781,
+          0.26168476046414346
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-03",
+            "calendar_months_observed": 3,
+            "trades": 57
+          },
+          {
+            "first_month": "2011-04",
+            "last_month": "2011-09",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2011-10",
+            "last_month": "2012-03",
+            "calendar_months_observed": 6,
+            "trades": 116
+          },
+          {
+            "first_month": "2012-04",
+            "last_month": "2012-09",
+            "calendar_months_observed": 6,
+            "trades": 116
+          },
+          {
+            "first_month": "2012-10",
+            "last_month": "2013-03",
+            "calendar_months_observed": 6,
+            "trades": 114
+          },
+          {
+            "first_month": "2013-04",
+            "last_month": "2013-09",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2013-10",
+            "last_month": "2014-03",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2014-04",
+            "last_month": "2014-09",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2014-10",
+            "last_month": "2015-03",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2015-04",
+            "last_month": "2015-09",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2015-10",
+            "last_month": "2016-03",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2016-04",
+            "last_month": "2016-09",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2016-10",
+            "last_month": "2017-03",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2017-04",
+            "last_month": "2017-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-10",
+            "last_month": "2017-12",
+            "calendar_months_observed": 3,
+            "trades": 60
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-03",
+            "calendar_months_observed": 3,
+            "trades": 60
+          },
+          {
+            "first_month": "2022-04",
+            "last_month": "2022-09",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2022-10",
+            "last_month": "2023-03",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2023-04",
+            "last_month": "2023-09",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2023-10",
+            "last_month": "2023-12",
+            "calendar_months_observed": 3,
+            "trades": 62
+          }
+        ]
+      },
+      {
+        "phase_months": 4,
+        "effect_r": 0.11527981843884783,
+        "se_r": 0.050416357080756924,
+        "t": 2.286555894036386,
+        "df": 4,
+        "two_sided_p": 0.08417590611038048,
+        "ci95_dual": [
+          -0.024698429399923838,
+          0.2552580662776195
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-04",
+            "calendar_months_observed": 4,
+            "trades": 75
+          },
+          {
+            "first_month": "2011-05",
+            "last_month": "2011-10",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2011-11",
+            "last_month": "2012-04",
+            "calendar_months_observed": 6,
+            "trades": 116
+          },
+          {
+            "first_month": "2012-05",
+            "last_month": "2012-10",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-11",
+            "last_month": "2013-04",
+            "calendar_months_observed": 6,
+            "trades": 115
+          },
+          {
+            "first_month": "2013-05",
+            "last_month": "2013-10",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2013-11",
+            "last_month": "2014-04",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2014-05",
+            "last_month": "2014-10",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2014-11",
+            "last_month": "2015-04",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2015-05",
+            "last_month": "2015-10",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2015-11",
+            "last_month": "2016-04",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2016-05",
+            "last_month": "2016-10",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2016-11",
+            "last_month": "2017-04",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2017-05",
+            "last_month": "2017-10",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2017-11",
+            "last_month": "2017-12",
+            "calendar_months_observed": 2,
+            "trades": 38
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-04",
+            "calendar_months_observed": 4,
+            "trades": 80
+          },
+          {
+            "first_month": "2022-05",
+            "last_month": "2022-10",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2022-11",
+            "last_month": "2023-04",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2023-05",
+            "last_month": "2023-10",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-11",
+            "last_month": "2023-12",
+            "calendar_months_observed": 2,
+            "trades": 40
+          }
+        ]
+      },
+      {
+        "phase_months": 5,
+        "effect_r": 0.11527981843884784,
+        "se_r": 0.03932843612618674,
+        "t": 2.9312077924728124,
+        "df": 4,
+        "two_sided_p": 0.04276225785640602,
+        "ci95_dual": [
+          0.006086574461212593,
+          0.22447306241648307
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-05",
+            "calendar_months_observed": 5,
+            "trades": 96
+          },
+          {
+            "first_month": "2011-06",
+            "last_month": "2011-11",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2011-12",
+            "last_month": "2012-05",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-06",
+            "last_month": "2012-11",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2012-12",
+            "last_month": "2013-05",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2013-06",
+            "last_month": "2013-11",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2013-12",
+            "last_month": "2014-05",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2014-06",
+            "last_month": "2014-11",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2014-12",
+            "last_month": "2015-05",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2015-06",
+            "last_month": "2015-11",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2015-12",
+            "last_month": "2016-05",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2016-06",
+            "last_month": "2016-11",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2016-12",
+            "last_month": "2017-05",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2017-06",
+            "last_month": "2017-11",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-12",
+            "last_month": "2017-12",
+            "calendar_months_observed": 1,
+            "trades": 19
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-05",
+            "calendar_months_observed": 5,
+            "trades": 101
+          },
+          {
+            "first_month": "2022-06",
+            "last_month": "2022-11",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2022-12",
+            "last_month": "2023-05",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2023-06",
+            "last_month": "2023-11",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2023-12",
+            "last_month": "2023-12",
+            "calendar_months_observed": 1,
+            "trades": 20
+          }
+        ]
+      }
+    ],
+    "ES": [
+      {
+        "phase_months": 0,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.044099096342508935,
+        "t": 2.497701304689239,
+        "df": 3,
+        "two_sided_p": 0.0878846100179707,
+        "ci95_dual": [
+          -0.030196635751266826,
+          0.2504893766918689
+        ],
+        "pre_blocks": 14,
+        "late_blocks": 4,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-06",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2011-07",
+            "last_month": "2011-12",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2012-01",
+            "last_month": "2012-06",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2012-07",
+            "last_month": "2012-12",
+            "calendar_months_observed": 6,
+            "trades": 113
+          },
+          {
+            "first_month": "2013-01",
+            "last_month": "2013-06",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2013-07",
+            "last_month": "2013-12",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2014-01",
+            "last_month": "2014-06",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2014-07",
+            "last_month": "2014-12",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2015-01",
+            "last_month": "2015-06",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2015-07",
+            "last_month": "2015-12",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2016-01",
+            "last_month": "2016-06",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2016-07",
+            "last_month": "2016-12",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2017-01",
+            "last_month": "2017-06",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-07",
+            "last_month": "2017-12",
+            "calendar_months_observed": 6,
+            "trades": 122
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-06",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2022-07",
+            "last_month": "2022-12",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2023-01",
+            "last_month": "2023-06",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-07",
+            "last_month": "2023-12",
+            "calendar_months_observed": 6,
+            "trades": 124
+          }
+        ]
+      },
+      {
+        "phase_months": 1,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.044621136124554935,
+        "t": 2.4684797393513174,
+        "df": 4,
+        "two_sided_p": 0.06905937985142141,
+        "ci95_dual": [
+          -0.01374176451108397,
+          0.234034505451686
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-01",
+            "calendar_months_observed": 1,
+            "trades": 18
+          },
+          {
+            "first_month": "2011-02",
+            "last_month": "2011-07",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2011-08",
+            "last_month": "2012-01",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2012-02",
+            "last_month": "2012-07",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-08",
+            "last_month": "2013-01",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2013-02",
+            "last_month": "2013-07",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2013-08",
+            "last_month": "2014-01",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2014-02",
+            "last_month": "2014-07",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2014-08",
+            "last_month": "2015-01",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2015-02",
+            "last_month": "2015-07",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2015-08",
+            "last_month": "2016-01",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2016-02",
+            "last_month": "2016-07",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2016-08",
+            "last_month": "2017-01",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2017-02",
+            "last_month": "2017-07",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-08",
+            "last_month": "2017-12",
+            "calendar_months_observed": 5,
+            "trades": 103
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-01",
+            "calendar_months_observed": 1,
+            "trades": 19
+          },
+          {
+            "first_month": "2022-02",
+            "last_month": "2022-07",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2022-08",
+            "last_month": "2023-01",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2023-02",
+            "last_month": "2023-07",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2023-08",
+            "last_month": "2023-12",
+            "calendar_months_observed": 5,
+            "trades": 105
+          }
+        ]
+      },
+      {
+        "phase_months": 2,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.050775205215791056,
+        "t": 2.1692944420842157,
+        "df": 4,
+        "two_sided_p": 0.0958858092890838,
+        "ci95_dual": [
+          -0.03082819951649554,
+          0.25112094045709754
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-02",
+            "calendar_months_observed": 2,
+            "trades": 37
+          },
+          {
+            "first_month": "2011-03",
+            "last_month": "2011-08",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2011-09",
+            "last_month": "2012-02",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-03",
+            "last_month": "2012-08",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2012-09",
+            "last_month": "2013-02",
+            "calendar_months_observed": 6,
+            "trades": 114
+          },
+          {
+            "first_month": "2013-03",
+            "last_month": "2013-08",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2013-09",
+            "last_month": "2014-02",
+            "calendar_months_observed": 6,
+            "trades": 117
+          },
+          {
+            "first_month": "2014-03",
+            "last_month": "2014-08",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2014-09",
+            "last_month": "2015-02",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2015-03",
+            "last_month": "2015-08",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2015-09",
+            "last_month": "2016-02",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2016-03",
+            "last_month": "2016-08",
+            "calendar_months_observed": 6,
+            "trades": 129
+          },
+          {
+            "first_month": "2016-09",
+            "last_month": "2017-02",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2017-03",
+            "last_month": "2017-08",
+            "calendar_months_observed": 6,
+            "trades": 128
+          },
+          {
+            "first_month": "2017-09",
+            "last_month": "2017-12",
+            "calendar_months_observed": 4,
+            "trades": 80
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-02",
+            "calendar_months_observed": 2,
+            "trades": 38
+          },
+          {
+            "first_month": "2022-03",
+            "last_month": "2022-08",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2022-09",
+            "last_month": "2023-02",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2023-03",
+            "last_month": "2023-08",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2023-09",
+            "last_month": "2023-12",
+            "calendar_months_observed": 4,
+            "trades": 82
+          }
+        ]
+      },
+      {
+        "phase_months": 3,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.04902894472234969,
+        "t": 2.2465580504344635,
+        "df": 4,
+        "two_sided_p": 0.08798000614654616,
+        "ci95_dual": [
+          -0.02597980311707998,
+          0.246272544057682
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-03",
+            "calendar_months_observed": 3,
+            "trades": 57
+          },
+          {
+            "first_month": "2011-04",
+            "last_month": "2011-09",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2011-10",
+            "last_month": "2012-03",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2012-04",
+            "last_month": "2012-09",
+            "calendar_months_observed": 6,
+            "trades": 114
+          },
+          {
+            "first_month": "2012-10",
+            "last_month": "2013-03",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2013-04",
+            "last_month": "2013-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2013-10",
+            "last_month": "2014-03",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2014-04",
+            "last_month": "2014-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2014-10",
+            "last_month": "2015-03",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2015-04",
+            "last_month": "2015-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2015-10",
+            "last_month": "2016-03",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2016-04",
+            "last_month": "2016-09",
+            "calendar_months_observed": 6,
+            "trades": 128
+          },
+          {
+            "first_month": "2016-10",
+            "last_month": "2017-03",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2017-04",
+            "last_month": "2017-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2017-10",
+            "last_month": "2017-12",
+            "calendar_months_observed": 3,
+            "trades": 61
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-03",
+            "calendar_months_observed": 3,
+            "trades": 61
+          },
+          {
+            "first_month": "2022-04",
+            "last_month": "2022-09",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2022-10",
+            "last_month": "2023-03",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2023-04",
+            "last_month": "2023-09",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-10",
+            "last_month": "2023-12",
+            "calendar_months_observed": 3,
+            "trades": 62
+          }
+        ]
+      },
+      {
+        "phase_months": 4,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.044383115853978757,
+        "t": 2.481717841367527,
+        "df": 4,
+        "two_sided_p": 0.06808565781813442,
+        "ci95_dual": [
+          -0.013080914295904883,
+          0.2333736552365069
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-04",
+            "calendar_months_observed": 4,
+            "trades": 74
+          },
+          {
+            "first_month": "2011-05",
+            "last_month": "2011-10",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2011-11",
+            "last_month": "2012-04",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2012-05",
+            "last_month": "2012-10",
+            "calendar_months_observed": 6,
+            "trades": 115
+          },
+          {
+            "first_month": "2012-11",
+            "last_month": "2013-04",
+            "calendar_months_observed": 6,
+            "trades": 119
+          },
+          {
+            "first_month": "2013-05",
+            "last_month": "2013-10",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2013-11",
+            "last_month": "2014-04",
+            "calendar_months_observed": 6,
+            "trades": 118
+          },
+          {
+            "first_month": "2014-05",
+            "last_month": "2014-10",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2014-11",
+            "last_month": "2015-04",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2015-05",
+            "last_month": "2015-10",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2015-11",
+            "last_month": "2016-04",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2016-05",
+            "last_month": "2016-10",
+            "calendar_months_observed": 6,
+            "trades": 128
+          },
+          {
+            "first_month": "2016-11",
+            "last_month": "2017-04",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2017-05",
+            "last_month": "2017-10",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2017-11",
+            "last_month": "2017-12",
+            "calendar_months_observed": 2,
+            "trades": 39
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-04",
+            "calendar_months_observed": 4,
+            "trades": 81
+          },
+          {
+            "first_month": "2022-05",
+            "last_month": "2022-10",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2022-11",
+            "last_month": "2023-04",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2023-05",
+            "last_month": "2023-10",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2023-11",
+            "last_month": "2023-12",
+            "calendar_months_observed": 2,
+            "trades": 40
+          }
+        ]
+      },
+      {
+        "phase_months": 5,
+        "effect_r": 0.11014637047030101,
+        "se_r": 0.03771967505919345,
+        "t": 2.92013041728086,
+        "df": 4,
+        "two_sided_p": 0.043237830792525474,
+        "ci95_dual": [
+          0.005419763282552073,
+          0.21487297765804997
+        ],
+        "pre_blocks": 15,
+        "late_blocks": 5,
+        "pre_block_detail": [
+          {
+            "first_month": "2011-01",
+            "last_month": "2011-05",
+            "calendar_months_observed": 5,
+            "trades": 95
+          },
+          {
+            "first_month": "2011-06",
+            "last_month": "2011-11",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2011-12",
+            "last_month": "2012-05",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2012-06",
+            "last_month": "2012-11",
+            "calendar_months_observed": 6,
+            "trades": 113
+          },
+          {
+            "first_month": "2012-12",
+            "last_month": "2013-05",
+            "calendar_months_observed": 6,
+            "trades": 122
+          },
+          {
+            "first_month": "2013-06",
+            "last_month": "2013-11",
+            "calendar_months_observed": 6,
+            "trades": 120
+          },
+          {
+            "first_month": "2013-12",
+            "last_month": "2014-05",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2014-06",
+            "last_month": "2014-11",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2014-12",
+            "last_month": "2015-05",
+            "calendar_months_observed": 6,
+            "trades": 121
+          },
+          {
+            "first_month": "2015-06",
+            "last_month": "2015-11",
+            "calendar_months_observed": 6,
+            "trades": 126
+          },
+          {
+            "first_month": "2015-12",
+            "last_month": "2016-05",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2016-06",
+            "last_month": "2016-11",
+            "calendar_months_observed": 6,
+            "trades": 127
+          },
+          {
+            "first_month": "2016-12",
+            "last_month": "2017-05",
+            "calendar_months_observed": 6,
+            "trades": 123
+          },
+          {
+            "first_month": "2017-06",
+            "last_month": "2017-11",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2017-12",
+            "last_month": "2017-12",
+            "calendar_months_observed": 1,
+            "trades": 19
+          }
+        ],
+        "late_block_detail": [
+          {
+            "first_month": "2022-01",
+            "last_month": "2022-05",
+            "calendar_months_observed": 5,
+            "trades": 102
+          },
+          {
+            "first_month": "2022-06",
+            "last_month": "2022-11",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2022-12",
+            "last_month": "2023-05",
+            "calendar_months_observed": 6,
+            "trades": 124
+          },
+          {
+            "first_month": "2023-06",
+            "last_month": "2023-11",
+            "calendar_months_observed": 6,
+            "trades": 125
+          },
+          {
+            "first_month": "2023-12",
+            "last_month": "2023-12",
+            "calendar_months_observed": 1,
+            "trades": 20
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "window": [
+    "2018-01-01",
+    "2023-12-31"
+  ],
+  "markets": {
+    "NQ": {
+      "legacy_sha256": "99d1dd148575fd9348bed2e75af54a5d8d2b58eb2ebe8c2f4fc3d2c594bf13d5",
+      "repaired_sha256": "6567af5416544f9b6cfe728823149b05fe0737dd746fec91868268ff87e2432a",
+      "bars": {
+        "common_rth_bars": 414815,
+        "only_legacy_bars": 1,
+        "only_repaired_bars": 0,
+        "only_legacy_examples": [
+          "2018-07-04T17:00:00+00:00"
+        ],
+        "only_repaired_examples": [],
+        "price_mismatch_bars": 16536,
+        "volume_mismatch_bars": 20036,
+        "contract_symbol_mismatch_bars": 0,
+        "contract_symbol_mismatch_dates": [],
+        "max_absolute_price_error": 9.25
+      },
+      "signals": {
+        "legacy_signals": 1470,
+        "repaired_signals": 1470,
+        "common_signal_dates": 1470,
+        "only_legacy_signal_dates": [],
+        "only_repaired_signal_dates": [],
+        "risk_mismatch_dates": [
+          "2018-05-23",
+          "2018-06-05",
+          "2018-06-08",
+          "2018-06-29"
+        ],
+        "outcome_mismatch_dates": [],
+        "gross_r_mismatch_dates": [
+          "2018-04-11",
+          "2018-05-22",
+          "2018-05-23",
+          "2018-05-24",
+          "2018-05-25",
+          "2018-06-04",
+          "2018-06-11",
+          "2018-06-12",
+          "2018-06-14",
+          "2018-06-15",
+          "2018-06-18",
+          "2018-06-22",
+          "2018-07-02",
+          "2018-07-11",
+          "2018-07-16",
+          "2018-07-19",
+          "2018-07-26",
+          "2018-07-30",
+          "2020-06-30",
+          "2023-05-16"
+        ]
+      }
+    },
+    "ES": {
+      "legacy_sha256": "df7931c197fd3d05159895ac998f13861c0015fd83dbe6fd5e2b1d998e981032",
+      "repaired_sha256": "a054658ea943b673d70dc20d6c8b9d997b1afbde52e58f35410bc7bc7ccfdb20",
+      "bars": {
+        "common_rth_bars": 414815,
+        "only_legacy_bars": 1,
+        "only_repaired_bars": 0,
+        "only_legacy_examples": [
+          "2018-07-03T17:15:00+00:00"
+        ],
+        "only_repaired_examples": [],
+        "price_mismatch_bars": 10174,
+        "volume_mismatch_bars": 18494,
+        "contract_symbol_mismatch_bars": 0,
+        "contract_symbol_mismatch_dates": [],
+        "max_absolute_price_error": 2.5
+      },
+      "signals": {
+        "legacy_signals": 1483,
+        "repaired_signals": 1483,
+        "common_signal_dates": 1483,
+        "only_legacy_signal_dates": [],
+        "only_repaired_signal_dates": [],
+        "risk_mismatch_dates": [
+          "2018-06-08"
+        ],
+        "outcome_mismatch_dates": [],
+        "gross_r_mismatch_dates": [
+          "2018-05-24",
+          "2018-06-11",
+          "2018-06-12",
+          "2018-06-22",
+          "2018-06-29",
+          "2018-07-02",
+          "2018-07-13",
+          "2018-07-16",
+          "2018-07-25",
+          "2018-07-26",
+          "2020-06-30"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "posthoc_sensitivity",
+  "estimand": "trade-weighted 2022-2023 minus 2011-2017 benchmark net R",
+  "method": "separate circular moving-block bootstrap within each era; consecutive trade blocks",
+  "block_length_trades": 10,
+  "repetitions": 20000,
+  "seed": 20260901,
+  "canonical_sources": {
+    "NQ": {
+      "path": "work/sierra_repair/current/NQ_sierra_volume_continuous_1m.csv.gz",
+      "sha256": "6567af5416544f9b6cfe728823149b05fe0737dd746fec91868268ff87e2432a"
+    },
+    "ES": {
+      "path": "work/sierra_repair/current/ES_sierra_volume_continuous_1m.csv.gz",
+      "sha256": "a054658ea943b673d70dc20d6c8b9d997b1afbde52e58f35410bc7bc7ccfdb20"
+    }
+  },
+  "results": {
+    "NQ": {
+      "n_baseline": 1693,
+      "n_late": 490,
+      "estimate_r": 0.11527981843884783,
+      "percentile_range_95": [
+        0.026248896846327103,
+        0.20546015197182216
+      ],
+      "two_sided_block_permutation_p": 0.022598870056497175
+    },
+    "ES": {
+      "n_baseline": 1703,
+      "n_late": 495,
+      "estimate_r": 0.11014637047030104,
+      "percentile_range_95": [
+        0.0066312676127301086,
+        0.21347612470488686
+      ],
+      "two_sided_block_permutation_p": 0.03239838008099595
+    }
+  }
+}

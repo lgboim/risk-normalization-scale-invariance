@@ -1,0 +1,51 @@
+{
+  "status": "postrepair_vendor_boundary_audit",
+  "purpose": "test whether the 2023 eligibility result is a Sierra-to-Databento discontinuity",
+  "eligibility_rule": "4 <= opening_range_width_points <= 120",
+  "markets": {
+    "NQ": {
+      "market": "NQ",
+      "window": [
+        "2023-01-01",
+        "2023-12-31"
+      ],
+      "sierra_complete_sessions": 248,
+      "databento_complete_sessions": 248,
+      "common_complete_sessions": 248,
+      "only_sierra_sessions": [],
+      "only_databento_sessions": [],
+      "width_correlation": 1.0,
+      "median_absolute_width_difference": 0.0,
+      "mean_absolute_width_difference": 0.0,
+      "maximum_absolute_width_difference": 0.0,
+      "sierra_eligible_sessions": 220,
+      "databento_eligible_sessions": 220,
+      "sierra_eligibility_rate": 0.8870967741935484,
+      "databento_eligibility_rate": 0.8870967741935484,
+      "classification_disagreements": 0,
+      "classification_disagreement_dates": []
+    },
+    "ES": {
+      "market": "ES",
+      "window": [
+        "2023-01-01",
+        "2023-12-31"
+      ],
+      "sierra_complete_sessions": 248,
+      "databento_complete_sessions": 248,
+      "common_complete_sessions": 248,
+      "only_sierra_sessions": [],
+      "only_databento_sessions": [],
+      "width_correlation": 1.0,
+      "median_absolute_width_difference": 0.0,
+      "mean_absolute_width_difference": 0.0,
+      "maximum_absolute_width_difference": 0.0,
+      "sierra_eligible_sessions": 248,
+      "databento_eligible_sessions": 248,
+      "sierra_eligibility_rate": 1.0,
+      "databento_eligibility_rate": 1.0,
+      "classification_disagreements": 0,
+      "classification_disagreement_dates": []
+    }
+  }
+}

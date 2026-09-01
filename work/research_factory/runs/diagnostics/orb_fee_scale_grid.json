@@ -1,0 +1,32 @@
+{
+  "status": "analytical_grid",
+  "formula": "J(K_prime, lambda) = (K_prime/lambda) * J(4,1)/4",
+  "input": "orb_paper_lineage_audit_results.json",
+  "input_sha256": "24ab3ebd10e401369bb83abd665796cba4e8d47a5c9384b1695eb7b380e231f1",
+  "fees_usd": [
+    0.04,
+    0.1,
+    0.4,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "multiplier_scales": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "market_coefficients_r_per_effective_dollar": {
+    "NQ": 0.0028815545241508565,
+    "ES": 0.0025369794858020878
+  },
+  "outputs": {
+    "orb_fee_scale_grid.csv": "fb162691767c454cb354f87357fbbd987502aacd1dcb96a6fcbfb19d11e3cfb0",
+    "orb_fee_scale_grid.svg": "896a7dd6d92ebf5a7e9f2519b1cd8f493dcbb167445c73e68129322b414bc2c5"
+  }
+}
