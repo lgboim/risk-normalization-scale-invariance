@@ -1,0 +1,5 @@
+numpy==2.4.6
+scipy==1.18.0
+
+# Needed only to rebuild the independent exchange-calendar attachment.
+pandas-market-calendars>=5.1,<6

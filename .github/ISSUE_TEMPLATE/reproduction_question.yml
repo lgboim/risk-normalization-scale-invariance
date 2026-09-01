@@ -1,0 +1,47 @@
+name: Reproduction question
+description: Ask about setup, inputs, hashes, or a numerical reproduction discrepancy.
+title: "[Reproduction]: "
+labels: [reproduction]
+body:
+  - type: markdown
+    attributes:
+      value: Read REPRODUCIBILITY.md first. Describe licensed inputs by source, date, and hash only; do not upload them.
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Reproduction stage
+      options:
+        - Public verification without market data
+        - Licensed-input full rebuild
+        - Figure generation
+        - Hash or manifest verification
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: discrepancy
+    attributes:
+      label: Question or numerical discrepancy
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Ubuntu 24.04, Python 3.12.4
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Data and security check
+      options:
+        - label: I have not included licensed data, credentials, or non-public vendor material.
+          required: true

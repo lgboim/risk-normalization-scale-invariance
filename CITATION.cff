@@ -6,9 +6,30 @@ version: 1.0
 date-released: 2026-09-01
 doi: 10.5281/zenodo.22230814
 url: "https://doi.org/10.5281/zenodo.22230814"
+abstract: >-
+  Research software and replication materials for a study of cost-scale
+  equivariance, harmonic-width aggregation, level-contrast divergence, and
+  eligibility drift in risk-normalized futures trading rules.
+keywords:
+  - risk normalization
+  - scale invariance
+  - harmonic width
+  - transaction costs
+  - futures trading
+  - market microstructure
+  - reproducible research
 authors:
   - family-names: Elboim
     given-names: Ariel
     orcid: "https://orcid.org/0009-0001-1341-366X"
 repository-code: "https://github.com/lgboim/risk-normalization-scale-invariance"
 license: MIT
+preferred-citation:
+  type: article
+  title: "Risk Normalization Does Not Imply Scale Invariance: Costs, Harmonic Width, and Eligibility in Futures Trading Rules"
+  authors:
+    - family-names: Elboim
+      given-names: Ariel
+      orcid: "https://orcid.org/0009-0001-1341-366X"
+  year: 2026
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259"

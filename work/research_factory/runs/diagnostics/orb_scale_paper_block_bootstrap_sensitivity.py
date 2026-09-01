@@ -6,7 +6,10 @@ import csv
 import hashlib
 import json
 import os
+import random
+import statistics
 from pathlib import Path
+from typing import Any
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[3]
@@ -15,13 +18,68 @@ os.environ["ORB_SERIES_DIR"] = str(SERIES_DIR)
 os.environ["ORB_END_DATE"] = "2023-12-31"
 
 import orb_paper_lineage_audit as lineage  # noqa: E402
-import regime_open_runner as regime  # noqa: E402
 
 OUT_JSON = HERE / "orb_scale_paper_block_bootstrap_sensitivity.json"
 OUT_CSV = HERE / "orb_scale_paper_block_bootstrap_sensitivity.csv"
 REPETITIONS = 20_000
 BLOCK_TRADES = 10
 SEED = 20_260_901
+
+
+def block_chunks(values: list[Any], block: int) -> list[list[Any]]:
+    return [values[index:index + block] for index in range(0, len(values), block)]
+
+
+def moving_block(values: list[float], length: int, rng: random.Random) -> list[float]:
+    output: list[float] = []
+    while len(output) < len(values):
+        start = rng.randrange(len(values))
+        output.extend(
+            values[(start + offset) % len(values)]
+            for offset in range(length)
+        )
+    return output[:len(values)]
+
+
+def contrast(
+    baseline: list[dict[str, float]],
+    late: list[dict[str, float]],
+    repetitions: int,
+    block: int,
+    seed: int,
+) -> dict[str, Any]:
+    baseline_values = [row["r"] for row in baseline]
+    late_values = [row["r"] for row in late]
+    observed = statistics.fmean(late_values) - statistics.fmean(baseline_values)
+    combined = baseline_values + late_values
+    chunks = block_chunks(combined, block)
+    rng = random.Random(seed)
+    exceed = 1
+    bootstraps: list[float] = []
+    for _ in range(repetitions):
+        shuffled = chunks[:]
+        rng.shuffle(shuffled)
+        permuted = [value for chunk in shuffled for value in chunk]
+        trial = (
+            statistics.fmean(permuted[len(baseline_values):])
+            - statistics.fmean(permuted[:len(baseline_values)])
+        )
+        exceed += abs(trial) >= abs(observed)
+        sampled_baseline = moving_block(baseline_values, block, rng)
+        sampled_late = moving_block(late_values, block, rng)
+        bootstraps.append(
+            statistics.fmean(sampled_late)
+            - statistics.fmean(sampled_baseline)
+        )
+    bootstraps.sort()
+    return {
+        "effect_mean_r": observed,
+        "pvalue": exceed / (repetitions + 1),
+        "bootstrap_95pct": [
+            bootstraps[int(0.025 * repetitions)],
+            bootstraps[int(0.975 * repetitions)],
+        ],
+    }
 
 
 def digest(path: Path) -> str:
@@ -52,7 +110,7 @@ def main() -> None:
             for row in rows
             if row["era"] == "2022-2023"
         ]
-        result = regime.contrast(
+        result = contrast(
             baseline,
             late,
             REPETITIONS,

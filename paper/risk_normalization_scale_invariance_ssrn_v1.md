@@ -320,7 +320,7 @@ The distinction matters numerically. The NQ headline universe contains 490 trade
 
 The headline history was inspected before the later source repair and before the cross-market extension. The repair protocol froze a uniform reconstruction pipeline before repaired results were viewed; it did not constitute independent preregistration or erase earlier researcher degrees of freedom. The named subperiods are therefore presented as documented summary contrasts within a visible historical path.
 
-![Figure 1. Annual gross payoff, fixed-dollar drag, and benchmark net payoff.](assets/figure1_annual_gross_drag_net.svg)
+![Figure 1. Annual gross payoff, fixed-dollar drag, and benchmark net payoff.](../outputs/figures/figure1_annual_gross_drag_net.svg)
 
 **Figure 1. Annual gross payoff, fixed-dollar drag, and benchmark net payoff.** The figure reports the complete 2011–2023 historical path for each headline market under the four-dollar original-point-value convention. Shaded bands mark the four named reporting periods within the full annual history. Annual trade counts are omitted to avoid mixing quantities with different scales on one axis. The chronology audit separately records when period definitions and endpoint grids entered the research process.
 
@@ -419,7 +419,7 @@ The downscaled late-period ES level is only \(+0.003R\) before any additional ex
 
 Increasing contract count to maintain a target dollar-risk exposure does not remove this result. Under a linear per-contract fee, \(n_i\) cancels from normalized fixed friction, as shown in Section 2.3.
 
-![Figure 2. Contract-scale downscaling frontier.](assets/figure2_downscaling_frontier.svg)
+![Figure 2. Contract-scale downscaling frontier.](../outputs/figures/figure2_downscaling_frontier.svg)
 
 **Figure 2. Contract-scale downscaling frontier.** Baseline benchmark net payoff, late-period benchmark net payoff, and the late-minus-baseline contrast are shown over the economically anchored range \(0.01\leq\lambda\leq1\). The analytical result applies for every \(\lambda>0\). Markers at \(0.1\) and \(0.01\) are multiplier-scale accounting anchors, not Micro or E-nano execution claims.
 
@@ -460,7 +460,7 @@ The frozen operational extension ends on August 26, 2026. In matched January 1�
 
 A distributional shift that lowers \(E[1/W]\) reduces fixed-dollar drag in \(R\), while a fixed upper bound can exclude more candidates. Cost scaling changes the economics of a fixed trade set; absolute eligibility bounds change the trade set itself.
 
-![Figure 3. Eligibility distributions and participation-quality decomposition.](assets/figure3_eligibility_decomposition.svg)
+![Figure 3. Eligibility distributions and participation-quality decomposition.](../outputs/figures/figure3_eligibility_decomposition.svg)
 
 **Figure 3. Eligibility distributions and participation-quality decomposition.** Panel A shows complete-session width CDFs and boundary locations. Panel B reports historical trade-candidate retention, conditional benchmark net payoff, unconditional benchmark net payoff per declared candidate, and conditional harmonic width. Panel C keeps the operational complete-session denominator separate and uses matched January 1–August 26 windows. Panel D reports the exact lower- and upper-bound rejection counts: one and one in 2011–2017, versus zero and 165 in 2022–2023.
 
