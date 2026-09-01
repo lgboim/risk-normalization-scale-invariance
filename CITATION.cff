@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you use this replication software, please cite the archived version below."
 title: "Replication companion for Risk Normalization Does Not Imply Scale Invariance"
 type: software
-version: 1.0
+version: 1.0.1
 date-released: 2026-09-01
-doi: 10.5281/zenodo.22230814
-url: "https://doi.org/10.5281/zenodo.22230814"
+doi: 10.5281/zenodo.22232460
+url: "https://doi.org/10.5281/zenodo.22232460"
 abstract: >-
   Research software and replication materials for a study of cost-scale
   equivariance, harmonic-width aggregation, level-contrast divergence, and

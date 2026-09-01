@@ -6,7 +6,7 @@
   "description": "Research software and replication materials for cost-scale equivariance, harmonic-width aggregation, level-contrast divergence, and eligibility drift in risk-normalized futures trading rules.",
   "codeRepository": "https://github.com/lgboim/risk-normalization-scale-invariance",
   "issueTracker": "https://github.com/lgboim/risk-normalization-scale-invariance/issues",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "datePublished": "2026-09-01",
   "author": {
     "@type": "Person",
@@ -14,8 +14,8 @@
     "familyName": "Elboim",
     "@id": "https://orcid.org/0009-0001-1341-366X"
   },
-  "identifier": "https://doi.org/10.5281/zenodo.22230814",
-  "sameAs": "https://zenodo.org/records/22230814",
+  "identifier": "https://doi.org/10.5281/zenodo.22232460",
+  "sameAs": "https://zenodo.org/records/22232460",
   "citation": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259",
   "license": "https://spdx.org/licenses/MIT.html",
   "programmingLanguage": "Python",

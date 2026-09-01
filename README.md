@@ -1,7 +1,7 @@
 # Risk Normalization Does Not Imply Scale Invariance
 
 [![SSRN](https://img.shields.io/badge/SSRN-7388259-154881)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22230814.svg)](https://doi.org/10.5281/zenodo.22230814)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22232460.svg)](https://doi.org/10.5281/zenodo.22232460)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--1341--366X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-1341-366X)
 [![Repository quality](https://github.com/lgboim/risk-normalization-scale-invariance/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/lgboim/risk-normalization-scale-invariance/actions/workflows/repository-quality.yml)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE.txt)
@@ -13,9 +13,9 @@ Research software, manuscript, and replication materials for:
 
 The paper studies a measurement problem in quantitative finance: expressing gross payoffs in risk units does not make implementation costs or absolute eligibility rules economically scale invariant. The empirical application uses E-mini Nasdaq-100 and E-mini S&P 500 futures opening-range trading rules as a laboratory; the contribution is the transformation framework, not a claim that the strategy identifies a structural break.
 
-**Paper:** [SSRN abstract 7388259](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259) · **archived release:** [Zenodo 10.5281/zenodo.22230814](https://doi.org/10.5281/zenodo.22230814) · **author:** [ORCID 0009-0001-1341-366X](https://orcid.org/0009-0001-1341-366X)
+**Paper:** [SSRN abstract 7388259](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259) · **archived release:** [Zenodo 10.5281/zenodo.22232460](https://doi.org/10.5281/zenodo.22232460) · **author:** [ORCID 0009-0001-1341-366X](https://orcid.org/0009-0001-1341-366X)
 
-The SSRN submission is under completeness review as of September 1, 2026. Zenodo is the citable, immutable archive for version 1.0. This GitHub repository is the maintained working view and will carry documented corrections and later releases.
+The SSRN submission is under completeness review as of September 1, 2026. Zenodo is the citable, immutable archive for version 1.0.1. This GitHub repository is the maintained working view and will carry documented corrections and later releases.
 
 ## Why this matters
 
@@ -96,13 +96,14 @@ The raw contract-file inventory was not present when version 1.0 was built. Exac
 
 Use GitHub's **Cite this repository** control, the metadata in [`CITATION.cff`](CITATION.cff), or cite the immutable Zenodo release:
 
-> Elboim, A. (2026). *Replication companion for Risk Normalization Does Not Imply Scale Invariance* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22230814
+> Elboim, A. (2026). *Replication companion for Risk Normalization Does Not Imply Scale Invariance* (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.22232460
 
 For the argument and empirical results, cite the paper itself via [SSRN abstract 7388259](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7388259). The preferred paper citation will be updated after SSRN completes its review.
 
 ## Versioning and archival policy
 
-- Zenodo version 1.0 is immutable and corresponds to the first public replication release.
+- Zenodo version 1.0 remains immutable as the first public replication release.
+- Zenodo version 1.0.1 corrects the packaged moving-block sensitivity dependency without changing numerical results, outputs, claims, or interpretations.
 - GitHub changes are documented in [`CHANGELOG.md`](CHANGELOG.md).
 - Substantive releases will use semantic version tags and GitHub Releases.
 - Later GitHub releases will link to, rather than replace, the existing Zenodo record unless a deliberate new archival version is created.
